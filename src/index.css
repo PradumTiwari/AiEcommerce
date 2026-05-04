@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Jost', sans-serif;
+    background-color: #fdfaf5;
+    color: #1a1209;
+  }
+}
+
+@layer utilities {
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-400 { animation-delay: 400ms; }
+  .delay-500 { animation-delay: 500ms; }
+  .animation-fill-both { animation-fill-mode: both; }
+}
